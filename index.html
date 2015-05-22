@@ -4,16 +4,28 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="6742657/ascii-binary-converter.js"></script>
 <script src="script.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <meta charset="utf-8">
   <title>JS Bin</title>
 </head>
 <body>
   
 <form>
-  <textarea class="target" id="txt" style="width:100%" rows="10"></textarea>
+<h2>Text</h2>
+  <textarea id="txt" style="width:100%" rows="5"></textarea>
   <br />
-  <textarea class="target" id="binary" style="width:100%" rows="10"></textarea>
+<h2>ASCII</h2>
+  <textarea readonly id="ascii" style="width:100%" rows="5"></textarea>
+  <br />  
+<h2>Binary (Base 2)</h2>
+  <textarea readonly id="binary" style="width:100%" rows="5"></textarea>
 </form>
+<h2>Ternary (Base 3)</h2>
+  <textarea readonly id="ternary" style="width:100%" rows="5"></textarea>
+</form>
+
+
  
 </body>
 </html>
